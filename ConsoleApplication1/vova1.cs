@@ -10,6 +10,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            Console.Title = "cake";
+
+            Console.Beep();
+
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Write(" ");
             Console.BackgroundColor = ConsoleColor.Green;
@@ -70,7 +74,8 @@ namespace ConsoleApplication1
             Console.WriteLine("       ");
 
             Console.ReadLine();
-                
-       }
+
+            Console.Beep();
+        }
     }
 }
